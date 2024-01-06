@@ -1,14 +1,15 @@
 import React from "react";
 import "./App.css";
+
 import Weather from "./Weather";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCIty="Victoria" />
         <footer>
-          This prroject was coded by Neve O'Dwyer and is{" "}
+          This project was coded by Neve O'Dwyer and is{" "}
           <a
             href="https://github.com/Neveod/react-weather-app"
             target="_blank"
