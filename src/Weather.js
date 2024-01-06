@@ -12,7 +12,7 @@ export default function Weather(props) {
       date: "Wednesday 7:00",
       description: response.data.weather[0].description,
       iconUrl: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
-      wind: response.data.main.wind.speed,
+      wind: response.data.wind.speed,
       city: response.data.name,
     });
   }
@@ -37,7 +37,7 @@ export default function Weather(props) {
         <h1>{weatherData.city}</h1>
         <ul>
           <li>{weatherData.date}</li>
-          <li>{weatherData.description}y</li>
+          <li className="text-capitalize">{weatherData.description}</li>
         </ul>
         <div className="row">
           <div className="col-6">
