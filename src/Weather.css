@@ -1,3 +1,28 @@
 .Weather {
-  border: 1px solid green;
+  border: 1.5px solid rgb(75, 136, 243);
+  font-family: "Courier New", Courier, monospace;
+  padding: 15px;
+  color: rgb(68, 159, 159);
+  background: azure;
+}
+.Weather .temperature {
+  font-size: 64px;
+  font-weight: bold;
+}
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  list-style: none;
+}
+.Weather .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
 }
