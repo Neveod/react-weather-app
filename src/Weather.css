@@ -20,3 +20,8 @@
   line-height: 19px;
   list-style: none;
 }
+.unit {
+  font-weight: 400;
+  position: relative;
+  top: -34px;
+}
